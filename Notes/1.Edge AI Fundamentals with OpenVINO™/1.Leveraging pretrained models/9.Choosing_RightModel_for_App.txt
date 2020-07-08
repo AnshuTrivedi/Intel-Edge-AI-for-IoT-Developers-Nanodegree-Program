@@ -1,0 +1,10 @@
+
+
+  > Make sure to test out different models for your application, comparing and contrasting their use cases and
+    performance for your desired task. 
+  > Remember that a little bit of extra processing may yield even better results, but needs to be implemented efficiently.
+
+  > This goes both ways - you should try out different models for a single use case, but you should also consider how a
+    given model can be applied to multiple use cases. 
+  > For example, being able to track human poses could help in physical therapy applications to assess and track
+    progress of limb movement range over the course of treatment.
