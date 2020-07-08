@@ -1,0 +1,12 @@
+
+  Optimizations on the Pre-Trained Models
+
+  > Precisions are related to floating point values - less precision means less memory used by the model, 
+   and less compute resources. 
+  > However, there are some trade-offs with accuracy when using lower precision. 
+  > There is also fusion, where multiple layers can be fused into a single operation. 
+  > These are achieved through the Model Optimizer in OpenVINO™, although the Pre-Trained Models have already been run 
+    through that process.
+
+  > differnet precisions: less memory,less compute
+  > fusing layers into one operations 
