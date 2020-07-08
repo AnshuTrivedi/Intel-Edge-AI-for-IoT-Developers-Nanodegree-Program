@@ -1,0 +1,15 @@
+
+
+  > Varies by model
+  > color channel order matter (RGB or BGR)
+  > Image resizing 
+  > Normalization
+
+
+  > It can even matter what library you use to load an image or frame - OpenCV, which we’ll use to read and handle images 
+   in this course, reads them in the BGR format, which may not match the RGB images some networks may have
+   used to train with.
+ > Outside of channel order, you also need to consider image size, and the order of the image data, 
+  such as whether the color channels come first or last in the dimensions. 
+  Certain models may require a certain normalization of the images for input, such as pixel values between 0 and 1,
+  although some networks also do this as their first layer.
