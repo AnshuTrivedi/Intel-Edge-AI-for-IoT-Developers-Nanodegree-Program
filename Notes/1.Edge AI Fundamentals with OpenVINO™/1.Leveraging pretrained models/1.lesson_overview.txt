@@ -1,0 +1,8 @@
+
+  In this lesson we'll cover:
+
+  1. Basics of the Intel® Distribution OpenVINO™ Toolkit
+  2. Different Computer Vision model types
+  3. Available Pre-Trained Models in the Software
+  4. Choosing the right Pre-Trained Model for your App
+  5. Loading and Deploying a Basic App with a Pre-Trained Model
