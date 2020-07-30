@@ -52,7 +52,6 @@ $ sudo pip3 install -r requirements.txt
 The following shows a demonstartion about the application:
 Youtube link for output video:
 
-[!Output demo](https://www.youtube.com/watch?v=-cROY7OhYd8)
 [![Output Video](img/output_video.gif)](https://www.youtube.com/watch?v=-cROY7OhYd8)
 
 <table>
