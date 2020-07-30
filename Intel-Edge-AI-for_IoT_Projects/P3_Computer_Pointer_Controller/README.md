@@ -50,8 +50,8 @@ $ sudo pip3 install -r requirements.txt
 ## Demo
 
 The following shows a demonstartion about the application:
-
-![Demo](output_video.mp4)
+Youtube link for ouutput video:
+![Output demo](https://youtu.be/-cROY7OhYd8)
 <table>
   <tr>
     <td>demo1</td>
@@ -91,8 +91,8 @@ usage: main.py [-h] [-i INPUT] [-m_fd MODEL_FD] [-m_ld MODEL_LD]
                [-e_hpe EXT_HPE] [-e_ge EXT_GE] [-v_fd] [-v_ld] [-v_hpe]
                [-v_ge]
 ```
-|---------|----------|--------------|
 |Argument|	Type	|Description|
+|---------|----------|--------------|
 |-fd	|Mandatory|	Path to .xml file of Face Detection model.|
 |-fl	|Mandatory|	Path to .xml file of Facial Landmark Detection model.|
 |-fh	|Mandatory|	Path to .xml file of Head Pose Estimation model.|
