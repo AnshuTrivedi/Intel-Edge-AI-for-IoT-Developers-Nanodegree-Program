@@ -51,15 +51,15 @@ $ sudo pip3 install -r requirements.txt
 
 The following shows a demonstartion about the application:
 
-![Demo](output.mp4)
+![Demo](output_video.mp4)
 <table>
   <tr>
     <td>demo1</td>
      <td>demo2</td>
   </tr>
   <tr>
-    <td><img src="img/demo1.png" width=270 height=480></td>
-    <td><img src="img/demo2.png" width=270 height=480></td>
+    <td><img src="img/demo1.png" width=270 height=270></td>
+    <td><img src="img/demo2.png" width=270 height=270></td>
   </tr>
  </table>
 
@@ -73,6 +73,10 @@ The following image shows the pipeline of the application which consists of: det
 In order to visualize the output of the models, use the following command:
 
 ```
+$ cd Workspace
+$ cd P3_Computer_Pointer_Controller
+$ source ../env/bin/activate
+$ source /opt/intel/openvino/bin/setupvars.sh
 $ python starter/src/main.py -fd models/intel/face-detection-adas-binary-0001/FP32-INT1/face-detection-adas-binary-0001.xml -lr models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml -hp models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml -ge models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml -d CPU -i starter/bin/demo.mp4 -flags ff fl fh fg
 ```
 
@@ -86,7 +90,7 @@ usage: main.py [-h] [-i INPUT] [-m_fd MODEL_FD] [-m_ld MODEL_LD]
                [-d_ge {CPU,GPU,FPGA,VPU}] [-e_fd EXT_FD] [-e_ld EXT_LD]
                [-e_hpe EXT_HPE] [-e_ge EXT_GE] [-v_fd] [-v_ld] [-v_hpe]
                [-v_ge]
-
+```
 |---------|----------|--------------|
 |Argument|	Type	|Description|
 |-fd	|Mandatory|	Path to .xml file of Face Detection model.|
@@ -98,7 +102,6 @@ usage: main.py [-h] [-i INPUT] [-m_fd MODEL_FD] [-m_ld MODEL_LD]
 |-probs	|Optional|	Specify confidence threshold which the value here in range(0, 1), default=0.6|
 |-flags	|Optional|	ff for faceDetectionModel, fl for landmarkRegressionModel, fh for headPoseEstimationModel, fg for gazeEstimationMode|
 |-d	|Optional|	Provide the target device: CPU / GPU / MYRIAD / FPGA|
-```
 
 
 Documentation of the used models:
@@ -119,8 +122,8 @@ Documentation of the used models:
      <td>Project files:</td>
   </tr>
   <tr>
-    <td><img src="img/project_dir.png" width=270 height=480></td>
-    <td><img src="img/project_files.png" width=270 height=480></td>
+    <td><img src="img/project_dir.png" width=270 height=280></td>
+    <td><img src="img/project_files.png" width=270 height=280></td>
   </tr>
  </table>
 
