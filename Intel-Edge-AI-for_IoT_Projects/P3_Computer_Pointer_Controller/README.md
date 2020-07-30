@@ -50,12 +50,10 @@ $ sudo pip3 install -r requirements.txt
 ## Demo
 
 The following shows a demonstartion about the application:
-Youtube link for ouutput video:
-![Output demo](https://www.youtube.com/watch?v=-cROY7OhYd8)
+Youtube link for output video:
 
-<video width="320" height="240" controls>
-  <source src="output_video.mp4" type="video/mp4">
-</video>
+[!Output demo](https://www.youtube.com/watch?v=-cROY7OhYd8)
+[![Output Video](img/output_video.gif)](https://www.youtube.com/watch?v=-cROY7OhYd8)
 
 <table>
   <tr>
