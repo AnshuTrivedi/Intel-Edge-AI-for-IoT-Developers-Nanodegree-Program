@@ -1,0 +1,10 @@
+numpy==1.17.4
+opencv-contrib-python==4.2.0.34
+PyAutoGUI==0.9.50
+image==1.5.27
+imutils
+ipdb==0.12.3
+ipython==7.10.2
+Pillow>=6.2.2
+requests==2.22.0
+opencv-python==4.1.0.25
