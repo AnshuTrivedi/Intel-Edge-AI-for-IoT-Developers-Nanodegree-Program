@@ -1,4 +1,4 @@
-numpy==1.17.4
+numpy==1.22.0
 opencv-contrib-python==4.2.0.34
 PyAutoGUI==0.9.50
 image==1.5.27
